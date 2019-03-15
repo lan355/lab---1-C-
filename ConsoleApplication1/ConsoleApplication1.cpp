@@ -1,4 +1,4 @@
-﻿#include "pch.h"
+#include "pch.h"
 #include <iostream>
 #include <string>
 
@@ -15,16 +15,16 @@ int main()
 		int edition;
 
 	};
-	
+
 	books readText;
 
 	readText.Creator = "Дмитрий Емец";
-	
-	readText.genre =  "Фэнтези";
-	
+
+	readText.genre = "Фэнтези";
+
 	readText.title = "Мефодий Буслаев";
 
-	readText.edition = 9000;
+	readText.edition = 19000;
 
 	std::string readTextCreator = "";
 	std::string readTextGenre = "";
@@ -46,9 +46,9 @@ int main()
 	}
 	else
 	{
-		std::cout << "Этот тераж превышает допустимого(10000)";
+		std::cout << "Этот первый тераж превышает допустимого(10000)";
 	}
-	
+
 	std::cout << std::endl;
 
 	books readText2;
@@ -77,13 +77,13 @@ int main()
 		readTextCreator2 = readText2.Creator;
 		readTextGenre2 = readText2.genre;
 		readTextTitle2 = readText2.title;
-		
+
 
 		std::cout << "\nCreator:" << readTextCreator2 << "\nGenre:" << readTextGenre2 << "\nTitle:" << readTextTitle2 << "\nEdition:" << ResultEdition2 << std::endl;
 	}
 	else
 	{
-		std::cout << "Этот тераж превышает допустимого(10000)";
+		std::cout << "Этот второй тераж превышает допустимого(10000)";
 	}
 
 	return 0;
