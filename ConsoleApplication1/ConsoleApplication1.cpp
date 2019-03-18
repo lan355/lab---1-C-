@@ -1,4 +1,4 @@
-//вариант 11
+//вариант 11 базовый
 #include "pch.h"
 #include <iostream>
 #include <string>
